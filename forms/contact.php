@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
                 "Email: $email. \n" .
                 "Message: $message. \n";
 
-            $recipient = 'mina.latif@live.com';
+            $recipient = 'info@romhein.com';
 
             $headers = "From: $email \r\n";
             $headers .= "Reply-To: $email \r\n";
