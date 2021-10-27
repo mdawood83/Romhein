@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #5c9f24;
+  color: #e03a3c;
   text-decoration: none;
 }
 
 a:hover {
-  color: #74c92d;
+  color: #e76668;
   text-decoration: none;
 }
 
@@ -34,8 +34,8 @@ h6 {
   opacity: 0;
   right: 15px;
   bottom: 15px;
-  z-index: 996;
-  background: #5c9f24;
+  z-index: 999;
+  background: #e03a3c;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6fc02c;
+  background: #e35052;
   color: #fff;
 }
 
@@ -129,6 +129,17 @@ h6 {
   position: relative;
 }
 
+div.lang {
+  margin-left: 10px;
+  text-transform: lowercase;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* div.lang:hover {
+  background-color: #e03a3c;
+} */
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -143,7 +154,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #5c9f24;
+  background-color: #e03a3c;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -170,12 +181,12 @@ h6 {
   color: #fff;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  border: 2px solid #5c9f24;
+  border: 2px solid #e03a3c;
 }
 
 .navbar .getquote:hover {
   color: #fff;
-  background: #5c9f24;
+  background: #e03a3c;
 }
 
 .navbar .getquote:hover:before,
@@ -217,7 +228,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .navbar .dropdown:hover > ul {
@@ -261,7 +272,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 @media (max-width: 991px) {
@@ -313,7 +324,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .navbar-mobile > ul > li {
@@ -329,7 +340,7 @@ h6 {
 
 .navbar-mobile .getquote {
   margin: 15px;
-  color: #5c9f24;
+  color: #e03a3c;
   padding-left: 15px;
 }
 
@@ -360,7 +371,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -421,7 +432,7 @@ h6 {
 }
 
 #home h2 span {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 #home p {
@@ -496,7 +507,7 @@ h6 {
 
 #home .carousel-indicators li.active {
   opacity: 1;
-  background: #5c9f24;
+  background: #e03a3c;
 }
 
 #home .btn-get-started {
@@ -514,13 +525,13 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   text-transform: uppercase;
-  border: 2px solid #5c9f24;
-  background: #5c9f24;
+  border: 2px solid #e03a3c;
+  background: #e03a3c;
 }
 
 #home .btn-get-started:hover {
-  background: #6ab82a;
-  border-color: #6ab82a;
+  background: #e76668;
+  border-color: #e76668;
   color: #fff;
 }
 
@@ -562,7 +573,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .section-title p {
@@ -598,7 +609,7 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .about .content .icon-box p {
@@ -653,7 +664,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #5c9f24;
+  color: #e03a3c;
   float: left;
   line-height: 0;
 }
@@ -735,7 +746,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .services .service {
@@ -752,7 +763,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #5c9f24;
+  background: #e03a3c;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -779,7 +790,7 @@ section {
 }
 
 .why-us .box .image {
-  background-color: #5c9f24;
+  background-color: #e03a3c;
   border-radius: 50%;
   padding: 5px;
   block-size: 4rem;
@@ -801,7 +812,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #5c9f24;
+  background: #e03a3c;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -843,7 +854,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5c9f24;
+  background: #e03a3c;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -920,7 +931,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #8ed851;
+  color: #e76668;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -959,14 +970,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5c9f24;
+  border: 1px solid #e03a3c;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #5c9f24;
+  background-color: #e03a3c;
 }
 
 .portfolio-details .portfolio-info {
@@ -1018,7 +1029,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .contact .contact-info address,
@@ -1040,7 +1051,7 @@ section {
 }
 
 .contact .contact-info a:hover {
-  color: #5c9f24;
+  color: #e03a3c;
 }
 
 .contact .contact-address,
@@ -1103,11 +1114,11 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5c9f24;
+  border-color: #e03a3c;
 }
 
 .contact .php-email-form button[type='submit'] {
-  background: #5c9f24;
+  background: #e03a3c;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1116,7 +1127,7 @@ section {
 }
 
 .contact .php-email-form button[type='submit']:hover {
-  background: #6ab82a;
+  background: #e76668;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1254,7 +1265,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5c9f24;
+  background: #e03a3c;
   color: #fff;
   text-decoration: none;
 }
@@ -1279,7 +1290,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #8ed851;
+  color: #e03a3c;
   font-size: 18px;
   line-height: 1;
 }
@@ -1302,7 +1313,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #81d33d;
+  color: #e03a3c;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1328,14 +1339,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5c9f24;
+  background: #e03a3c;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type='submit']:hover {
-  background: #6ab82a;
+  background: #e76668;
 }
 
 #footer .copyright {
